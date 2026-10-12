@@ -1,0 +1,7 @@
+data=input()
+train, from_city, to_city, time, price=data.split(";")
+price=float(price)
+print("Поезд:", train)
+print("Маршрут:", from_city, "-", to_city)
+print("Отправление:", time)
+print(f"Цена: {price:.2f} руб")
